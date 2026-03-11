@@ -1,6 +1,6 @@
 # Enterprise Cybersecurity Lab: Wazuh as EDR, XDR, SIEM & Vulnerability Management
 
-![Wazuh Dashboard](images/wazuh-dashboard.png)  
+![Wazuh Opening](images/wazuh.png)  
 *Wazuh Dashboard showing monitored endpoints and security events.*
 
 ## Overview
