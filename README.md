@@ -89,7 +89,7 @@ On the Wazuh server, register each agent and obtain a key, then insert the key o
 
 In the Wazuh Dashboard, navigate to Agents – all three endpoints should appear with status Active.
 
-https://images/agents.png
+![Wazuh Agents](/images/agents.png)
 #### Attack Scenarios & Validation
 #### 1. SSH Brute‑Force Detection
 
@@ -106,7 +106,7 @@ Expected Result:
 
     View in Security Events → Authentication Failures.
 
-https://images/ssh-brute.png
+![Wazuh ssh brute force](/images/ssh-brute.png)
 
 Wazuh Capabilities:
 
@@ -137,7 +137,7 @@ Expected Result:
 
     View in Security Events → FIM Alerts.
 
-https://images/fim-alert.png
+![Wazuh FIM alert](/images/fim-alert.png)
 
 Wazuh Capabilities:
 
@@ -164,7 +164,7 @@ Expected Result:
 
     View in Vulnerabilities module, with detailed CVE information.
 
-https://images/vuln-detection.png
+![Wazuh Vulnerability detection](/images/vuln-detection.png)
 
 Wazuh Capabilities:
 
@@ -179,12 +179,12 @@ Wazuh Capabilities:
 
 Wazuh automatically maps detected techniques to the MITRE ATT&CK framework. This provides SOC teams with actionable adversary context.
 
-https://images/mitre-overview.png
+![Wazuh MITRE ATT&CK overview](/images/mitre-overview.png)
 ##### Endpoint Inventory
 
 Each agent page displays installed software, running processes, and open network connections – essential for asset visibility and threat surface analysis.
 
-https://images/inventory.png
+![Wazuh Inventory](/images/inventory.png)
 ##### Results Summary
 |Threat Vector |	Wazuh Capability	| Verification Path |
 |---------|-------|---------|
