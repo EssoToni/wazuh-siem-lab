@@ -186,10 +186,12 @@ Each agent page displays installed software, running processes, and open network
 
 https://images/inventory.png
 ##### Results Summary
-Threat Vector	Wazuh Capability Used	Verification Path
-SSH brute‑force	EDR, SIEM, Active Response	Security Events → Authentication Failures
-File tampering	FIM, EDR, SIEM	Security Events → FIM Alerts
-Vulnerable software	Vulnerability Management	Vulnerabilities module
+|Threat Vector |	Wazuh Capability	| Verification Path |
+|---------|-------|---------|
+|SSH brute-force |	EDR, SIEM, Active Response |	Dashboard > Security Events > Authentication Failures |
+|File tampering |	FIM, EDR, SIEM |	Dashboard > Security Events > FIM Alerts |
+|Vulnerable software |	VM, SIEM |	Dashboard > Vulnerabilities |
+
 
 The lab successfully demonstrated real‑time detection and alerting for all simulated attacks, with clear visibility in the Wazuh Dashboard.
 ## Lessons Learned
